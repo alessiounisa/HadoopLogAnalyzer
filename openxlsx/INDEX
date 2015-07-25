@@ -1,0 +1,48 @@
+addFilter               add filters to columns
+addStyle                Add a style to a set of cells
+addWorksheet            Add a worksheet to a workbook
+conditionalFormat       Add conditional formatting to cells
+convertFromExcelRef     Convert excel column name to integer index
+convertToDate           Convert from excel date number to R Date type
+convertToDateTime       Convert from excel time number to R POSIXct
+                        type.
+createStyle             Create a cell style
+createWorkbook          Create a new Workbook object
+deleteData              Delete cell data
+freezePane              Freeze a worksheet pane
+getBaseFont             Return the workbook defaul font
+getCellRefs             Return excel cell coordinates from (x,y)
+                        coordinates
+getStyles               Returns a list of all styles in the workbook
+insertImage             Insert an image into a worksheet
+insertPlot              Insert the current plot into a worksheet
+loadWorkbook            Load an exisiting .xlsx file
+mergeCells              Merge cells within a worksheet
+modifyBaseFont          Modify the default font
+names                   get or set worksheet names
+openXL                  Open a Microsoft Excel file (xls/xlsx) or an
+                        openxlsx Workbook
+openxlsx                xlsx reading, writing and editing.
+pageSetup               Set page margins, orientation and print scaling
+read.xlsx               Read data from a worksheet into a data.frame
+readWorkbook            Read data from a worksheet into a data.frame
+removeCellMerge         Create a new Workbook object
+removeColWidths         Remove custom column widths from a worksheet
+removeFilter            removes worksheet filter from addFilter and
+                        writeData
+removeRowHeights        Remove custom row heights from a worksheet
+removeWorksheet         Remove a worksheet from a workbook
+renameWorksheet         Rename an exisiting worksheet
+replaceStyle            Replace an existing cell style
+saveWorkbook            save Workbook to file
+setColWidths            Set worksheet column widths
+setFooter               Set footer for all worksheets
+setHeader               Set header for all worksheets
+setHeaderFooter         Set document headers and footers
+setRowHeights           Set worksheet row heights
+sheets                  Returns names of worksheets.
+showGridLines           Set worksheet gridlines to show or hide.
+worksheetOrder          Order of worksheets in xlsx file
+write.xlsx              write directly to an xlsx file
+writeData               Write an object to a worksheet
+writeDataTable          Write to a worksheet and format as a table
